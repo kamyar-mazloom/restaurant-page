@@ -1,7 +1,7 @@
 {
   "name": "resturant-homepage",
   "version": "1.0.0",
-  "description": "",
+  "description": "resturant-homepage",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,7 +11,16 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^5.52.1",
+    "webpack": "^5.55.1",
     "webpack-cli": "^4.8.0"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kamyar-mazloom/restaurant-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kamyar-mazloom/restaurant-page/issues"
+  },
+  "homepage": "https://github.com/kamyar-mazloom/restaurant-page#readme"
 }
