@@ -1,0 +1,79 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+#background{
+	background-image: url('images/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;	
+	background-attachment: fixed;
+	background-position: center;
+	display: flex;
+	flex-direction: column;
+	position:absolute;
+	top:0px;
+	right:0px;
+	bottom:0px;
+	left:0px;
+}
+#box2{
+	margin: auto;
+}
+#header{
+	flex: 0 1 auto;
+	background-color: rgba(34, 32, 30, 0.733);
+	display: flex;
+	flex-direction: column;
+}
+#title{
+  color: rgb(196, 196, 189);
+  font-family: 'Pacifico', cursive;
+  font-size: 100px;
+  text-align: center;
+}
+#buttons{
+	color: rgb(196, 196, 189);
+	font-family: 'Pacifico', cursive;
+	font-size: 30px;
+	text-align: center;
+}
+.button{
+font-size: 20px;
+margin-left: 20px;
+background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+p{
+	padding: 20px;
+}
+.home{	
+	font-family: 'Architects Daughter', cursive;
+	min-width: 500px;
+	max-width:1000px;
+color: rgb(218, 218, 209);
+margin: auto;
+text-align: center;
+padding: 20px;
+border-radius: 20px;
+font-size: 38px;
+background-color: rgba(34, 32, 30, 0.8);
+}
+
+.menu{	
+	font-family: 'Architects Daughter', cursive;
+	min-width: 500px;
+	font-weight: bolder;
+color: rgb(218, 218, 209);
+margin: auto;
+text-align: center;
+padding: 20px;
+border-radius: 20px;
+font-size: 18px;
+background-color: rgba(34, 32, 30, 0.8);
+}
